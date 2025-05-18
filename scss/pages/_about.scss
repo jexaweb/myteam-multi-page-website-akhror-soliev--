@@ -1,0 +1,272 @@
+.scn {
+  margin-top: 4.56rem;
+  background-image: url(../img/bg-pattern-about-1-mobile-nav-1.svg);
+  background-repeat: no-repeat;
+  background-position: right -10rem bottom;
+  background-size: auto;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .div-container {
+    flex-direction: row;
+  }
+  .marks {
+    // display: none;
+  }
+}
+
+.scn-name {
+  width: 21.875rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.marks {
+  margin-left: 2.5rem;
+  width: 3.125rem;
+  height: 0.25rem;
+  background-color: var(--color-light-coral);
+  margin-bottom: 1.375rem;
+}
+
+.scn-tatil {
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+  width: 100%;
+  max-width: 51.875rem;
+  height: auto;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+  margin-bottom: 7.5rem;
+}
+
+.cta--div {
+}
+
+.cta__pattern {
+  position: absolute;
+  bottom: -0.625rem;
+}
+
+/* main */
+
+.directors--pe {
+  background-color: var(--color-deep-jungle-green);
+  color: var(--color-white);
+  position: relative;
+}
+
+.marc1 {
+  position: absolute;
+  top: 0;
+  left: -10rem;
+}
+
+.marc2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.sec-peding {
+}
+
+.card--name {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  padding: 8.75rem 16.25rem 2rem 16.25rem;
+  line-height: 3rem;
+}
+
+.cards {
+  padding-bottom: 8.75rem;
+  gap: 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--color-sacramento-state-green);
+  padding: 2.75rem 1.5rem 3.375rem 1.5rem;
+  text-align: center;
+  width: 35rem;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.card img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.img--botton {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--color-light-coral);
+  border-radius: 50%;
+  color: var(--color-light-coral);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -10%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.img--botton:hover {
+  opacity: 0.6;
+  background-color: var(--color-rapture-blue);
+  color: var(--color-deep-jungle-green);
+}
+
+.socials-owe {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.socials {
+  color: var(--color-white);
+  transition: all 0.3s ease;
+}
+
+.socials:hover {
+  color: var(--color-light-coral);
+  opacity: 0.6;
+  font-size: 1.5rem;
+}
+
+.card--aftr {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  color: var(--color-rapture-blue);
+}
+
+.card--titl {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.card--titl2 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 15.8rem;
+  height: 4.6rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Responsive  */
+@media (max-width: 1024px) {
+  .card--name {
+    padding: 6rem 4rem 2rem 4rem;
+    font-size: 2.5rem;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card--name {
+    padding: 4rem 2rem;
+    font-size: 2rem;
+  }
+  .scn {
+    background-position: right -10rem bottom -10rem;
+  }
+
+  .scn-tatil {
+    text-align: center;
+  }
+  .scn-name {
+    padding-left: 10rem;
+    text-align: center;
+  }
+  .marks {
+    display: none;
+  }
+  .marc1 {
+    display: none;
+  }
+}
+
+.usa {
+  background-color: var(--color-sacramento-state-green);
+}
+
+.logo__name {
+  padding-top: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 8.75rem;
+}
+
+.iogo__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aa {
+  gap: 5rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .logo__name {
+    padding-top: 4rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .logos {
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .aa {
+    gap: 2rem;
+  }
+}
