@@ -1,7 +1,7 @@
-main {
+.namu {
   background-image: url(../img/bg-pattern-about-2-contact-1.svg),
     url(../img/bg-pattern-contact-2.svg);
-  background-position: left -6.25rem top, right -6.25rem top 24.063rem; /* -100px, 385px */
+  background-position: left -6.25rem top, right -6.25rem top 24.063rem;
   background-repeat: no-repeat;
   z-index: 0;
 }
@@ -9,7 +9,7 @@ main {
 /* main */
 .contact-section {
   display: flex;
-  margin-top: 7.5rem; /* 120px */
+  margin-top: 7.5rem;
   padding-bottom: 7.5rem;
   flex-wrap: wrap;
   gap: 2rem;
@@ -21,22 +21,26 @@ main {
 }
 
 .contact-left h1 {
-  font-size: 4rem; /* 64px */
+  font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 0.625rem; /* 10px */
-  line-height: 6.25rem; /* 100px */
+  margin-bottom: 1rem;
+  line-height: 6.25rem;
 }
 
 .contact-left h3 {
   color: var(--color-light-coral);
-  font-size: 2rem; /* 32px */
-  margin-bottom: 1.875rem; /* 30px */
+  font-size: 2rem;
+  margin-bottom: 1rem;
   font-weight: 700;
-  line-height: 3rem; /* 48px */
+  line-height: 3rem;
 }
 
 .main--list {
-  margin-top: 2.5rem; /* 40px */
+  margin-top: 2.5rem;
+}
+.main--list p {
+  color: var(--color-white);
+  font-size: 1.8rem;
 }
 
 .contact-left ul {
@@ -45,16 +49,16 @@ main {
 }
 
 .contact-left li {
-  margin-bottom: 3.125rem; /* 50px */
-  font-size: 1.125rem; /* 18px */
+  margin-bottom: 3rem;
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 1.75rem; /* 28px */
+  line-height: 1.75rem;
   display: flex;
 }
 
 .contact-left li span {
-  margin-right: 1.4375rem; /* 23px */
-  margin-top: -1.5625rem; /* -25px */
+  margin-right: 1.4rem;
+  margin-top: -1.5rem;
   display: inline-block;
 }
 
@@ -63,7 +67,7 @@ main {
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  gap: 1.5625rem; /* 25px */
+  gap: 1.5625rem;
 }
 
 .contact-form input,
@@ -71,45 +75,45 @@ main {
   background: none;
   border: none;
   border-bottom: 1px solid var(--color-white);
-  padding: 0.625rem; /* 10px */
+  padding: 1.5rem;
   color: var(--color-white);
-  font-size: 0.9375rem; /* 15px */
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 1.5625rem; /* 25px */
+  line-height: 1.5rem;
   outline: none;
 }
 
 .contact-form textarea {
   resize: vertical;
-  height: 6.25rem; /* 100px */
+  height: 6.25rem;
 }
 
 .contact-form button {
-  width: 7.5rem; /* 120px */
-  padding: 0.625rem 0;
+  width: 7.5rem;
+  padding: 1rem;
   border: none;
   cursor: pointer;
-  margin-top: 0.625rem; /* 10px */
+  margin-top: 1rem;
   font-weight: 600;
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.75rem; /* 28px */
+  font-size: 1rem;
+  line-height: 1.75rem;
   color: var(--color-deep-jungle-green);
 }
 
 /* footer */
 .footer {
   background-color: var(--color-dark-green);
-  font-size: 0.875rem; /* 14px */
+  font-size: 1.4rem;
   flex-wrap: wrap;
-  padding: 3rem 0; /* 48px */
+  padding: 4.8rem;
 }
 
 .footer-left h2 {
-  font-size: 1.5rem; /* 24px */
+  font-size: 1.5rem;
 }
 
 .footer nav a {
-  margin-right: 1.25rem; /* 20px */
+  margin-right: 1.25rem;
   text-decoration: none;
   color: var(--color-white);
 }
@@ -120,14 +124,14 @@ main {
 }
 
 .footer-right .socials a {
-  margin-right: 0.625rem; /* 10px */
-  font-size: 1.125rem; /* 18px */
+  margin-right: 1rem;
+  font-size: 1.125rem;
   text-decoration: none;
   color: var(--color-white);
 }
 
 .footer--display {
-  margin-bottom: 3.125rem; /* 50px */
+  margin-bottom: 3.125rem;
 }
 
 .footer-right {
@@ -136,7 +140,7 @@ main {
 }
 
 .footer-right p {
-  margin-top: 1.25rem; /* 20px */
+  margin-top: 1.25rem;
 }
 
 .footer__container {
@@ -146,11 +150,11 @@ main {
 }
 
 .marg {
-  padding-left: 7.5rem; /* 120px */
+  padding-left: 7.5rem;
   opacity: 0.6;
   font-weight: 600;
-  font-size: 0.9375rem; /* 15px */
-  line-height: 1.5625rem; /* 25px */
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 input {
@@ -159,8 +163,8 @@ input {
 
 .futer--inc {
   color: var(--color-white);
-  margin-left: 1rem; /* 16px */
-  font-size: 1.5rem; /* 24px */
+  margin-left: 1rem;
+  font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
@@ -170,8 +174,8 @@ input {
 
 .footer__tas {
   font-weight: 600;
-  font-size: 0.9375rem; /* 15px */
-  line-height: 1.5625rem; /* 25px */
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   color: var(--color-white);
   opacity: 0.6;
 }
@@ -206,6 +210,16 @@ input {
 
   .marg {
     padding-left: 0;
+  }
+  .namu {
+    background-image: url(../img/bg-pattern-contact-2.svg);
+    background-position: right -6.25rem bottom -10rem;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+
+  .contact-section {
+    padding-bottom: 10rem;
   }
 }
 .contact {

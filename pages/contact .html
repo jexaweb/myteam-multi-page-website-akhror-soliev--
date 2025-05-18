@@ -48,7 +48,7 @@
             >contact us</a
           >
           <button id="show-btn" class="header__toggle-btn">
-            <img src="./img/roup 2.svg" alt="logo" width="30" height="18" />
+            <img src="../img/roup 2.svg" alt="logo" width="30" height="18" />
           </button>
         </div>
       </div>
@@ -73,7 +73,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="main namu">
       <section class="contact-section container">
         <div class="contact-left">
           <h1 class="contact">Contact</h1>
@@ -84,12 +84,12 @@
               <p>The quality of our talent network</p>
             </li>
             <li>
-              <span><img src="../img/Group 12.png" alt="" /></span> Usage &
-              implementation of our software
+              <span><img src="../img/Group 12.png" alt="" /></span>
+              <p>Usage & implementation of our software</p>
             </li>
             <li>
-              <span><img src="../img/Group 13.png" alt="" /></span> How we help
-              drive innovation
+              <span><img src="../img/Group 13.png" alt="" /></span>
+              <p>How we help drive innovation</p>
             </li>
           </ul>
         </div>
@@ -152,5 +152,15 @@
         </div>
       </div>
     </footer>
+    <script>
+      const toggleBtn = document.querySelector(".header__toggle-btn");
+      const hiddenMenu = document.querySelector(".header__hidden");
+      const body = document.body;
+
+      toggleBtn.addEventListener("click", () => {
+        hiddenMenu.classList.toggle("show");
+        body.classList.toggle("no-scroll");
+      });
+    </script>
   </body>
 </html>
